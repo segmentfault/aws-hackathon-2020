@@ -1,6 +1,6 @@
-# AI for Good
+# AWS Hackathon Online 2020
 
-**AWS Hackathon Online 2020**  
+**AI for Good**  
 [官网主页](http://page.segmentfault.com) | [报名地址](http://page.segmentfault.com)
 
 ## 赛程安排

@@ -1,7 +1,7 @@
 # AI for Good
 
-AWS Hackathon Online 2020  
-报名地址：
+**AWS Hackathon Online 2020**  
+[官网主页](http://page.segmentfault.com) | [报名地址](http://page.segmentfault.com)
 
 ## 赛程安排
 
@@ -17,7 +17,7 @@ AWS Hackathon Online 2020
 1. Fork 官方仓库至个人 GitHub 仓库；
 2. Clone 个人 GitHub 仓库至本地；
 3. 进入你选择的的赛题目录，在该目录下创建你的项目文件夹；
-4. 将本地的参赛作品放进刚才创建的项目文件夹，命名格式为 `作品名 - 团队名`，如 `蜻蜓小队 - 蜻蜓环境风向标`；
+4. 将本地的参赛作品放进刚才创建的项目文件夹，命名格式为 `作品名 - 团队名`，如 `蜻蜓环境风向标 - 蜻蜓小队`；
 5. 通过 Pull Request 提交本人作品至官方仓库
 
 ## 提交注意事项
@@ -29,5 +29,5 @@ AWS Hackathon Online 2020
 * 作品介绍：应用场景
 * 作品截图：至少 3 张
 * 安装、编译指南等
-* 团队介绍：队长、队员、联系方式等
+* 团队介绍：团队成员、联系方式等
 * 使用到的 AWS 技术（如有）

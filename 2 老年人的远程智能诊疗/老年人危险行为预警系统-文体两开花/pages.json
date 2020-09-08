@@ -1,0 +1,16 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "健康状态"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "实时智能健康监测",
+		"navigationBarBackgroundColor": "#34B8FF",
+		"backgroundColor": "#FFFFFF"
+	}
+}

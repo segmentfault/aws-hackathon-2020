@@ -49,13 +49,7 @@
 1. 用pip安装requirement.txt文件中的所有第三方库。
 1. 大数据部分使用的是hadoop + spark + zookepper + hbase + elasticsearch + kibana + kafka
 本次大数据使用docker镜像搭建，镜像地址：https://hub.docker.com/repository/docker/minokun/hadoop_single
-1. 使用命令：
-```python
-# 检测图像
-python detect.py --detect_type image --file 3.jpg
-# 检测视频
-python detect.py --detect_type video --file test.mp4
-```
+1. 使用命令：请联系团队负责人。
 
 
 ## 团队成员

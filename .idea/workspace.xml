@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eae2eb5-4b8e-42c2-9058-0af9ad9f681d" name="Default Changelist" comment="" />
+    <list default="true" id="6eae2eb5-4b8e-42c2-9058-0af9ad9f681d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.env.staging" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/api/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/Abyssinian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/Bengal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/Birman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/american_bulldog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/american_pit_bull_terrier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/beagle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/css/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/css/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/css/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/components/TabBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/config/env.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/config/env.production.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/config/env.staging.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/filters/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/filters/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/plugins/vant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/router/router.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/store/modules/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/utils/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/views/home/about.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/views/home/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/src/views/layouts/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/Abyssinian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/Bengal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/Birman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/american_bulldog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/american_pit_bull_terrier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/test-data/beagle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/aws_dwb_my_dog_and_cat/vue.config.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +85,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="ProjectId" id="1hMZyl34adXc7wBYZQcqy9tMwAP" />
   <component name="ProjectViewState">
@@ -36,17 +113,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599823177412</updated>
-      <workItem from="1599823178595" duration="40000" />
+      <workItem from="1599823178595" duration="502000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: 提交代码">
+      <created>1599823273606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599823273607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="chore: 提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 提交代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="442" key="#ESLint" timestamp="1599823217496">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="896" y="442" key="#ESLint/0.23.1920.1057@0.23.1920.1057" timestamp="1599823217496" />
+    <state x="583" y="39" key="CommitChangelistDialog2" timestamp="1599823273308">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="583" y="39" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1599823273308" />
   </component>
 </project>

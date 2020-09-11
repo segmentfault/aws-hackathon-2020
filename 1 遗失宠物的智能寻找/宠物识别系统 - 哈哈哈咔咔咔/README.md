@@ -4,18 +4,22 @@
 
 ## 作品截图
 
+- 首页
 <p>
   <img src="./images/1.png" width="450" style="display:inline;" alt="">
 </p>
 
+- 识别宠物
 <p>
   <img src="./images/2.png" width="450" style="display:inline;" alt="">
 </p>
 
+- 识别效果
 <p>
   <img src="./images/4.png" width="450" style="display:inline;" alt="">
 </p>
 
+- 关于我
 <p>
   <img src="./images/3.png" width="450" style="display:inline;" alt="">
 </p>

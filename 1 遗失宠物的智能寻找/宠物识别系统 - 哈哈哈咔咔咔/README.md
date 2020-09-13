@@ -43,4 +43,5 @@
 ## 使用到的 AWS 技术
 - s3
 - sagemaker
+- endpoint
 - aws-sdk-js

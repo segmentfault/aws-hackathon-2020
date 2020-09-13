@@ -64,7 +64,7 @@ class Toplevel1:
         self.Label1.configure(disabledforeground="#a3a3a3")
         self.Label1.configure(foreground="#000000")
         global _img0
-        image1 = Image.open('/Volumes/Data/PyCharmProject/yaozitong666/client/images/bg.jpeg')
+        image1 = Image.open('/Volumes/Data/PyCharmProject/client/images/bg.jpeg')
         _img0 = ImageTk.PhotoImage(image1)
         self.Label1.configure(image=_img0)
         self.Label1.configure(text='''Label''')
@@ -88,7 +88,7 @@ class Toplevel1:
         self.Button1.configure(highlightbackground="#d9d9d9")
         self.Button1.configure(highlightcolor="black")
         global _img1
-        image2 = Image.open('/Volumes/Data/PyCharmProject/yaozitong666/client/images/upload.png')
+        image2 = Image.open('/Volumes/Data/PyCharmProject/client/images/upload.png')
         _img1 = ImageTk.PhotoImage(image2)
         self.Button1.configure(image=_img1)
         self.Button1.configure(pady="0")

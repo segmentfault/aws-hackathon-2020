@@ -42,6 +42,23 @@
 
 ## 使用到的 AWS 技术
 - s3
+<p>
+  <img src="./images/7.png" width="450" style="display:inline;" alt="">
+</p>
+
 - sagemaker
+<p>
+  <img src="./images/5.png" width="450" style="display:inline;" alt="">
+</p>
+
 - endpoint
+<p>
+  <img src="./images/6.png" width="450" style="display:inline;" alt="">
+</p>
+
 - aws-sdk-js
+```
+// 省略其他代码...
+sagemakerruntime.invokeEndpoint
+...
+```

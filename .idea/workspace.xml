@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53a691ae-9d0a-4fdc-928e-93fe84f076c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/cameratest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/vediotest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/bag_cfg/20191009103519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/bag_cfg/coco.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/bag_cfg/yolov3.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/bag_cfg/yolov3.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/coco_cfg/yolov3.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/color_align2depth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/depth_align2color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/depth_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/distance_to_object.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/img/align2color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/img/align2depth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/img/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/img/withoutalign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/yolov3_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/1 遗失宠物的智能寻找/SeekPick-biubiubiu/cat_dog_detection/yolov3_model.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c4c57224-3bb5-4d9b-8000-fb2b7a054df7" />
+  <component name="ProjectId" id="1hGtt0yqsC73zr46Y6p9DQu0Kmj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53a691ae-9d0a-4fdc-928e-93fe84f076c8" name="Default Changelist" comment="" />
+      <created>1599649482576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599649482576</updated>
+      <workItem from="1599649490171" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

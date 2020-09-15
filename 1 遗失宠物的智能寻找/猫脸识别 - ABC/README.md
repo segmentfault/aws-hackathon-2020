@@ -9,11 +9,11 @@
 
 ### 2.1 训练模型
 
-![model.png](attachment:model.png)
+![model.png](./model.png)
 
 ### 2.2 训练结果
 
-![ACC%and%LOSS.png](attachment:ACC%and%LOSS.png)
+![ACC%and%LOSS.png](./ACC%and%LOSS.png)
 
 ## 3.安装、编译指南
 

@@ -1,6 +1,9 @@
 # 跌倒检测
 本项目使用 OpenVINO toolkit 的人体姿势预训练模型 [human-pose-estimation-0001](https://docs.openvinotoolkit.org/latest/_models_intel_human_pose_estimation_0001_description_human_pose_estimation_0001.html) 进行跌倒检测
 
+# 应用场景
+- 老年人跌倒检测
+
 # 检测原理
 - 使用 opencv 从摄像头、视频文件读取每一帧视频，并判断 头、颈部、肩膀的位置
 - 对比每一帧视频，当发现位置为水平时判定为跌倒
@@ -25,3 +28,11 @@ echo $PYTHONPATH
 cd /app
 python3 fall_detection.py -i example/demo.mp4 
 ```
+
+# 团队介绍
+邱本超	q18612699412@163.com
+黄凯	 huangkai39@126.com
+李伟	 liwei3gjob@163.com
+孙涛	 suntao_2018@sina.cn
+
+

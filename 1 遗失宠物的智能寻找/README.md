@@ -8,15 +8,15 @@
 
   1.预测结果和实际结果的对比（每一个数字代表宠物狗的一个种类）
 
-  ![1](.\狗狗种类识别 - Sunburst\src\1.png)
+  ![1](https://github.com/ZxfBugProgrammer/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8B%97%E7%8B%97%E7%A7%8D%E7%B1%BB%E8%AF%86%E5%88%AB%20-%20Sunburst/src/1.png)
 
   2.预测的正确率
 
-  ![2](.\狗狗种类识别 - Sunburst\src\2.png)
+  ![2](https://github.com/ZxfBugProgrammer/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8B%97%E7%8B%97%E7%A7%8D%E7%B1%BB%E8%AF%86%E5%88%AB%20-%20Sunburst/src/2.png)
 
   3.以概率的形式输出预测结果
 
-  ![3](.\狗狗种类识别 - Sunburst\src\3.png)
+  ![3](https://github.com/ZxfBugProgrammer/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8B%97%E7%8B%97%E7%A7%8D%E7%B1%BB%E8%AF%86%E5%88%AB%20-%20Sunburst/src/3.png)
 
 * **安装、编译指南：**
 

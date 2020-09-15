@@ -13,7 +13,7 @@
 
 ### 2.2 训练结果
 
-![Figure%202020-09-15%20145806.png](attachment:Figure%202020-09-15%20145806.png)
+![ACC%and%LOSS.png](attachment:ACC%and%LOSS.png)
 
 ## 3.安装、编译指南
 

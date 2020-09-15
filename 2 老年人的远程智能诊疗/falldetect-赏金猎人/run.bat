@@ -1,0 +1,1 @@
+docker run -it --rm -v "d:/develop/python/falldetect:/app" falldetect

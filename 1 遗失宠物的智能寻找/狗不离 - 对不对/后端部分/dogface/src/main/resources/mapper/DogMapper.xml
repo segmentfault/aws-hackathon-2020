@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dogface.dao.DogMapper">
+
+    <select id="getAllDogs" resultType="com.example.dogface.domain.DogInfo">
+        SELECT *
+        FROM doginfo
+    </select>
+
+    <select id="getDogInfoByUsername" parameterType="java.lang.String" resultType="com.example.dogface.domain.DogInfo">
+        SELECT *
+        FROM doginfo
+        WHERE username = #{username}
+    </select>
+
+    <update id="insertDogInfo" parameterType="com.example.dogface.domain.DogInfo">
+        INSERT INTO doginfo
+          (id, username, facecode)
+        VALUES
+          (#{id}, #{username}, #{facecode})
+    </update>
+
+</mapper>

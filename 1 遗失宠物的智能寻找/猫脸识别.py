@@ -1,6 +1,6 @@
-import os  # 处理字符串路径
-import glob  # 查找文件
-from keras.models import Sequential  # 导入Sequential模型
+import os
+import glob
+from keras.models import Sequential
 from keras.layers.core import Flatten, Dense, Dropout
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
 from keras.optimizers import SGD
@@ -14,14 +14,12 @@ from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.optimizers import SGD, Adadelta, Adagrad
 from keras.utils import np_utils, generic_utils, plot_model
 from six.moves import range
-#加载数据
 import os
 from PIL import Image
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-#读取文件夹train下的42000张图片，图片为彩色图，所以为3通道，
-#如果是将彩色图作为输入,图像大小224*224
+
 def load_data():
     path = "D:\cat\91"
     files = os.listdir(path)
@@ -67,40 +65,26 @@ for i in range(len(images)):
         plt.imsave(r"D:\cat\96\1\validation_{}.jpg".format(i), images[i]/255)
     else:
         plt.imsave(r"D:\cat\96\2\train_{}.jpg".format(i), images[i]/255)    
+        
 model = Sequential()
-#第一个卷积层，4个卷积核，每个卷积核大小5*5。
-#激活函数用tanh
-#你还可以在model.add(Activation('tanh'))后加上dropout的技巧: model.add(Dropout(0.5))
 model.add(Convolution2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-#第二个卷积层，8个卷积核，每个卷积核大小3*3。
-#激活函数用tanh
-#采用maxpooling，poolsize为(2,2)
 model.add(Convolution2D(64, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-#第三个卷积层，16个卷积核，每个卷积核大小3*3
-#激活函数用tanh
-#采用maxpooling，poolsize为(2,2)
 model.add(Convolution2D(128, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-
 model.add(Convolution2D(128, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-#全连接层，先将前一层输出的二维特征图flatten为一维的。
-
 model.add(Flatten())
 model.add(Dense(512, activation='relu'))
-#sigmoid分类，输出是2类别
 model.add(Dense(1, activation='sigmoid'))
-
 model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['acc'])
-
-history = model.fit(train_data, train_labels,
-          epochs=50, batch_size=100,
-          validation_data=(validation_data, validation_labels))
+# history = model.fit(train_data, train_labels,
+#         epochs=50, batch_size=100,
+#         validation_data=(validation_data, validation_labels))
 
 import matplotlib.pyplot as plt
-# 调整像素值
+
 train_datagen = ImageDataGenerator(rescale=1./255)
 test_datagen = ImageDataGenerator(rescale=1./255)
 
@@ -125,7 +109,7 @@ history = model.fit_generator(
     validation_data=validation_generator,
     validation_steps=50)
 
-model.save('cats_and_dogs_small_1.h5')
+# model.save('cats_and_dogs_small_1.h5')
 os.environ["PATH"]+=os.pathsep + "D:/graphviz-2.38/release/bin/"
 plot_model(model, to_file='model.png', show_shapes=True)
 

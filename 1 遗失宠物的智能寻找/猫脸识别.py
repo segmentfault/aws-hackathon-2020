@@ -79,35 +79,10 @@ model.add(Flatten())
 model.add(Dense(512, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['acc'])
-# history = model.fit(train_data, train_labels,
-#         epochs=50, batch_size=100,
-#         validation_data=(validation_data, validation_labels))
 
-import matplotlib.pyplot as plt
-
-train_datagen = ImageDataGenerator(rescale=1./255)
-test_datagen = ImageDataGenerator(rescale=1./255)
-
-train_dir = "D:/cat/96/2"
-train_generator = train_datagen.flow_from_directory(
-    directory=train_dir,
-    target_size=(128, 128),
-    batch_size=20,
-    class_mode='binary')
-
-validation_dir="D:/cat/96/1"
-validation_generator = test_datagen.flow_from_directory(
-    directory=validation_dir,
-    target_size=(128, 128),
-    batch_size=20,
-    class_mode='binary')
-
-history = model.fit_generator(
-    train_generator,
-    steps_per_epoch=100,
-    epochs=30,
-    validation_data=validation_generator,
-    validation_steps=50)
+history = model.fit(train_data, train_labels,
+         epochs=50, batch_size=100,
+         validation_data=(validation_data, validation_labels))
 
 # model.save('cats_and_dogs_small_1.h5')
 os.environ["PATH"]+=os.pathsep + "D:/graphviz-2.38/release/bin/"

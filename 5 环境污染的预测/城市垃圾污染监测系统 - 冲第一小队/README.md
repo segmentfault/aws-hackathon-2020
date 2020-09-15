@@ -36,5 +36,20 @@ python mianUI.py
 
 ## 使用到的 AWS 技术
 - aws s3
+<p>
+  <img src="./imgs/7.png" width="450" style="display:inline;" alt="">
+</p>
+
 - aws SageMaker
+<p>
+  <img src="./imgs/5.png" width="450" style="display:inline;" alt="">
+</p>
+
+- endpoint
+<p>
+  <img src="./imgs/6.png" width="450" style="display:inline;" alt="">
+</p>
+
 - boto3
+
+具体使用见`resultUI.py` 的 `doAWSService`方法

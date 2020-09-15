@@ -81,7 +81,7 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['acc'])
 
 history = model.fit(train_data, train_labels,
-         epochs=50, batch_size=100,
+         epochs=200, batch_size=100,
          validation_data=(validation_data, validation_labels))
 
 # model.save('cats_and_dogs_small_1.h5')

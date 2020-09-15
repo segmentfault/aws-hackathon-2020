@@ -8,11 +8,11 @@
 
 ### 截图
 
-![](E:\Code\PM2.5 predict\aws-hackathon-2020\5 环境污染的预测\pm2.5的线性回归预测模型-今天睡醒了吗\Figure_2.png)
+![](.\Figure_2.png)
 
 经过绘图发现，PM2.5和空气中$SO_2$、$NO_2$、$CO$, 以及气压、露点温度近似成线性关系，使用sklearn中的线性回归模型进行训练拟合并预测
 
-![](E:\Code\PM2.5 predict\aws-hackathon-2020\5 环境污染的预测\pm2.5的线性回归预测模型-今天睡醒了吗\Figure_1.png)
+![](.\Figure_1.png)
 
 取数据中的$20\%$作为测试数据验证模型的可靠性，如上图所示。
 

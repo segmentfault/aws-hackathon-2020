@@ -18,23 +18,23 @@
 
   猫脸检测效果图一：
 
-  ![1](.\猫脸检测及识别 - Rainbow\res1.png)
+  ![1](https://github.com/CCCGX/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8C%AB%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%AB%20-%20Rainbow/res1.png?raw=true)
 
   猫脸检测效果图二：
 
-  ![2](.\猫脸检测及识别 - Rainbow\res2.png)
+  ![2](https://github.com/CCCGX/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8C%AB%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%AB%20-%20Rainbow/res2.png?raw=true)
 
   猫脸检测效果图三：（可以很好的识别出猫和狗的区别，opencv自带的猫脸检测就不能很好的做到这一点）
 
-  ![3](.\猫脸检测及识别 - Rainbow\res3.png)
+  ![3](https://github.com/CCCGX/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8C%AB%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%AB%20-%20Rainbow/res3.png?raw=true)
 
   猫脸检测效果图四：
 
-  ![4](.\猫脸检测及识别 - Rainbow\res4.png)
+  ![4](https://github.com/CCCGX/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8C%AB%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%AB%20-%20Rainbow/res4.png?raw=true)
 
   猫脸识别效果图一：
 
-  ![4](.\猫脸检测及识别 - Rainbow\res5.png)
+  ![4](https://github.com/CCCGX/aws-hackathon-2020/blob/master/1%20%E9%81%97%E5%A4%B1%E5%AE%A0%E7%89%A9%E7%9A%84%E6%99%BA%E8%83%BD%E5%AF%BB%E6%89%BE/%E7%8C%AB%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%AB%20-%20Rainbow/res5.png?raw=true)
 
 * 安装、编译指南：
 

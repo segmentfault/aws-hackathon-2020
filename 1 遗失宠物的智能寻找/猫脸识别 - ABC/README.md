@@ -13,7 +13,7 @@
 
 ### 2.2 训练结果
 
-![ACC%and%LOSS.png](./ACC%and%LOSS.png)
+![ACC and LOSS.png](./ACC and LOSS.png)
 
 ## 3.安装、编译指南
 

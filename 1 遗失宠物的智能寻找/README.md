@@ -22,19 +22,19 @@
 
 ## 作品截图：
 
-<img src="E:\QDU\catcat 2\aws-hackathon-2020-master\1 遗失宠物的智能寻找\yolov4+SRGan\images\res\0.png" alt="0" style="zoom:80%;" />
+<img src="猫狗识别超分辨率-早安喵\yolov4+SRGan\images\res\0.png" alt="0" style="zoom:80%;" />
 
 ​																		yolov4检测效果
 
-<img src="E:\QDU\catcat 2\aws-hackathon-2020-master\1 遗失宠物的智能寻找\yolov4+SRGan\images\res\5.jpg" alt="5" style="zoom:50%;" />
+<img src="猫狗识别超分辨率-早安喵\yolov4+SRGan\images\res\5.jpg" alt="5" style="zoom:50%;" />
 
 ​																	    yolov4检测效果
 
-<img src="E:\QDU\catcat 2\aws-hackathon-2020-master\1 遗失宠物的智能寻找\yolov4+SRGan\images\lr2\01.jpg" alt="01" style="zoom:33%;" />
+<img src="猫狗识别超分辨率-早安喵\yolov4+SRGan\images\lr2\01.jpg" alt="01" style="zoom:33%;" />
 
 ​																未经超分辨率增强的图像（上图）
 
-<img src="E:\QDU\catcat 2\aws-hackathon-2020-master\1 遗失宠物的智能寻找\yolov4+SRGan\images\res_Sr\01_rltE.png" alt="01_rltE" style="zoom: 33%;" />
+<img src="猫狗识别超分辨率-早安喵\yolov4+SRGan\images\res_Sr\01_rltE.png" alt="01_rltE" style="zoom: 33%;" />
 
 ​															经超分辨率增强的图像（上图）
 
@@ -59,6 +59,11 @@ torch                  1.2.0
 demo.py为猫狗检测
 
 test.py为超分辨率
+
+下载yolo.h5、RRDB_ESRGAN_x4.pth放在工程目录下
+
+链接：https://pan.baidu.com/s/1FUcLm22xRbG2LHZya6YpKA 
+提取码：ieje
 
 ## 团队介绍：
 

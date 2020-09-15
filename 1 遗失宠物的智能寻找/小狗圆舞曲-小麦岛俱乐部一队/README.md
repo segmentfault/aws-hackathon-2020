@@ -21,9 +21,9 @@ FCOS属于anchor-free类别的算法，且效果在anchor-free派系中算SOTA�
 
 
 
-作品截图：![效果图1](/Users/linzihao/Desktop/aws-hackathon-2020/1 遗失宠物的智能寻找/小狗圆舞曲 - 小麦岛俱乐部一队/效果图1.png)
+作品截图：![效果图1](./效果图1.png)
 
-![效果图2](/Users/linzihao/Desktop/aws-hackathon-2020/1 遗失宠物的智能寻找/小狗圆舞曲 - 小麦岛俱乐部一队/效果图2.png)![效果图3](/Users/linzihao/Desktop/aws-hackathon-2020/1 遗失宠物的智能寻找/小狗圆舞曲 - 小麦岛俱乐部一队/效果图3.png)安装、编译指南：
+![效果图2](./效果图2.png)![效果图3](./效果图3.png)安装、编译指南：
 
 (1)解压预训练模型
 

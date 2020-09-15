@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
@@ -83,7 +83,65 @@ class App extends Component {
     this.drawerRef.openDrawer();
   };
 
-  
+  selectPicToAWS = () => {
+    const options = {
+      title: '选择检测图片',
+      cancelButtonTitle: '取消',
+      takePhotoButtonTitle: '拍摄图片',
+      chooseFromLibraryButtonTitle: '从相册选择图片',
+      storageOptions: {
+        skipBackup: true,
+        path: 'images',
+      },
+    };
+
+    /**
+     * The first arg is the options object for customization (it can also be null or omitted for default options),
+     * The second arg is the callback which sends object: response (more info in the API Reference)
+     */
+    ImagePicker.showImagePicker(options, (response) => {
+      if (response.didCancel) {
+        console.log('User cancelled image picker');
+      } else if (response.error) {
+        console.log('ImagePicker Error: ', response.error);
+      } else if (response.customButton) {
+        console.log('User tapped custom button: ', response.customButton);
+      } else {
+        let sagemakerruntime = new AWS.SageMakerRuntime({
+          accessKeyId: 'AKIAQFCGOVF7D5S5ZJBB',
+          secretAccessKey: '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',
+          region: 'cn-northwest-1',
+        });
+        let params = {
+          Body: new Buffer(response.data, 'base64'),
+          EndpointName: 'xzr0914',
+          Accept: '*/*',
+          ContentType: 'application/x-image',
+        };
+        sagemakerruntime.invokeEndpoint(params, (err, data) => {
+          if (err) {
+            console.log(err, err.stack);
+          } else {
+            let resList = JSON.parse(String.fromCharCode.apply(null, new Uint16Array(data.Body)));
+            let maxValue = -1;
+            let indexValue = 0;
+            resList.forEach((value, index) => {
+              if (value > maxValue) {
+                maxValue = value;
+                indexValue = index;
+              }
+            });
+            this.setState({
+              imagePath: response.path,
+              modalVisible: true,
+              result: `${this.resMap[indexValue]}，可信度为：${maxValue}`,
+            });
+          }
+        });
+      }
+    });
+  };
+
   render() {
     const navigationView = (
       <View style={styles.navigationView}>

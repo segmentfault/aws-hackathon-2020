@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<view class="container" style='width:100%; min-height:100%;'>
+ <view class='title'>
+  <text>宠物防丢失识别系统</text>
+ </view>
+<view class="content">
+    <view  class='line3'>
+      <text> </text>
+    </view>
+    <view  class='line4'>
+      <text>Lteam</text>
+    </view>
+</view>
+<view class="btn_start">
+ <button bindtap='go_main' class='btn1'>
+    <view>开启</view>
+ </button>
+</view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>  
+</view>
+ 

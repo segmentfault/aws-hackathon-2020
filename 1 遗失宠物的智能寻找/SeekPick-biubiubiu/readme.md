@@ -72,7 +72,7 @@ python vediotest.py
 ![demo](img/cat3.png)
 
 ## 团队介绍
-本团队（biubiubiu）由一人组成，成员是来自浙江大学的研一学生仉鹏，邮箱:zzhangpeng@zju.edu.cn。
+本团队（biubiubiu）由一人（biubiubiu）组成，邮箱:1909856661@qq.com。
 
 ## AWS技术
 本项目将得益于Amazon SageMaker提供的高性能GPU服务器，可以快速训练深度学习模型（目标检测yolo，动物面部比对arcface），借助Amazon Database提供的数据库服务对宠物出行记录、宠物登记信息等内容进行存储，使用Amazon IoT提供的GPS定位服务，为宠物进行定位。得益于这些稳定成熟高可靠的产品，项目可以进行快速开发测试。

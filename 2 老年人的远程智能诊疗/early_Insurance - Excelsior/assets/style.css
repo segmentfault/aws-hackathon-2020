@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+input {
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1.5px solid #8d4bbb;
+}
+
+.header-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(141, 75, 187, 0.6),
+    rgba(23, 124, 176, 0.6)
+  );
+}
+
+.cover {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 50%;
+  background-image: url("../assets/cover-1.jpeg");
+  transform: skewY(-6deg);
+  -moz-transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+  -o-transform: skewY(-6deg);
+  -ms-transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.title {
+  position: relative;
+  font-size: 2.3rem;
+  padding: 100px 0;
+  -moz-transform: skewY(6deg);
+  -webkit-transform: skewY(6deg);
+  -o-transform: skewY(6deg);
+  -ms-transform: skewY(6deg);
+  transform: skewY(6deg);
+}
+
+.form-card {
+  margin-top: -16em;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.submit-button:valid {
+  border-radius: 6px;
+  padding: 1em 3em;
+  background-image: linear-gradient(
+    to right,
+    #8d4bbb 0%,
+    #177cb0 50%,
+    #8d4bbb 100%
+  );
+  background-size: 200% auto;
+  transition: 0.5s;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.submit-button:hover {
+  background-position: right center;
+}

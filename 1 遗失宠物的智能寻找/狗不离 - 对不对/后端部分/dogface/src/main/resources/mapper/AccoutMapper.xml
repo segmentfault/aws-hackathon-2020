@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dogface.dao.AccountMapper">
+
+    <select id="getAccountByUsername" parameterType="java.lang.String" resultType="com.example.dogface.domain.Account">
+        SELECT *
+        FROM account
+        WHERE username = #{username}
+    </select>
+
+    <select id="getAccountByUsernameAndPassword" parameterType="com.example.dogface.domain.Account" resultType="com.example.dogface.domain.Account">
+    SELECT *
+    FROM account
+    WHERE username = #{username}
+    AND password = #{password}
+  </select>
+
+    <update id="updateAccount" parameterType="com.example.dogface.domain.Account">
+    UPDATE account SET
+      password = #{password},
+      email = #{email},
+      address1 = #{address1},
+      address2 = #{address2}
+    WHERE username = #{username}
+  </update>
+
+    <insert id="insertAccount" parameterType="com.example.dogface.domain.Account">
+    INSERT INTO ACCOUNT
+      (username, password, email, address1, address2)
+    VALUES
+      (#{username}, #{password}, #{email}, #{address1}, #{address2})
+  </insert>
+
+</mapper>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+<h1 style="text-align: center;">基于随机森林的医疗初诊系统</h1>
+<form action="" method="post">
+{{form.hidden_tag()}}
+请输入您的症状：{{form.symptom()}}
+{{form.submit()}}
+{% if result %}
+    <p>您的疾病可能是：<span style="color: red">{{ result }}</span>，请到医院进一步诊断。</p>
+{% endif %}
+</form>
+</body>
+</html>

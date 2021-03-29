@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='1.jpg'>
+    <box top='1' left='103' width='372' height='260'/>
+  </image>
+  <image file='10.jpg'>
+    <box top='35' left='284' width='119' height='115'/>
+  </image>
+  <image file='2.jpg'>
+    <box top='23' left='180' width='221' height='200'/>
+  </image>
+  <image file='3.jpg'>
+    <box top='0' left='148' width='204' height='191'/>
+  </image>
+  <image file='4.jpg'>
+    <box top='14' left='248' width='145' height='150'/>
+    <box top='90' left='87' width='143' height='130'/>
+  </image>
+  <image file='5.jpg'>
+    <box top='23' left='19' width='115' height='102'/>
+  </image>
+  <image file='6.jpg'>
+    <box top='63' left='25' width='207' height='233'/>
+  </image>
+  <image file='7.jpg'>
+    <box top='16' left='142' width='250' height='219'/>
+  </image>
+  <image file='8.jpg'>
+    <box top='7' left='151' width='149' height='148'/>
+  </image>
+  <image file='9.jpg'>
+    <box top='18' left='161' width='109' height='108'/>
+  </image>
+</images>
+</dataset>
